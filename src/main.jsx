@@ -19,6 +19,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <App /> */}
     <StarRating
+      maxRating={"ssss"}
       message={["Terrible", "Bad", "Okay", "Good", "Amazing"]}
       defaultRating={3}
     />
